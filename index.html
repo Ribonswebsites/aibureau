@@ -2066,6 +2066,18 @@ a{text-decoration:none;color:inherit}
 
 </style>
 <style>section[aria-label="AILens topic hubs"] a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.2);padding:8px 11px;border-radius:3px;font-size:11px;letter-spacing:.04em}section[aria-label="AILens topic hubs"] a:hover{border-color:#8fe8ff;color:#8fe8ff}</style>
+
+<style id="native-media-ratio-fix">
+/* Preserve every source aspect ratio. Background media is letterboxed, never stretched. */
+.s-vid-bg{background:#000;}
+.s-vid-bg video{inset:0;width:100%;height:100%;object-fit:contain;object-position:center center;background:#000;}
+.reel-inner video{width:100%;height:auto;object-fit:contain;background:#000;}
+.vf-left-img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;background:#050505;}
+.co-card-img,.vid-thumb,.pk-card-img{width:100%;height:auto;min-height:0;aspect-ratio:auto;object-fit:contain;background:#09090f;}
+.img-strip-item img{width:100%;height:100%;object-fit:contain!important;background:#09090f;}
+.cov-img-card img{width:100%;height:100%;object-fit:contain!important;object-position:center;background:#09090f;}
+img[src^="brand/"], video[src^="brand/"]{object-fit:contain!important;}
+</style>
 </head>
 <body>
 
@@ -4232,7 +4244,7 @@ a{text-decoration:none;color:inherit}
 
     <!-- Card 4: Uncensored -->
     <div class="cov-img-card">
-      <img src="brand/img-008.jpg" alt="Uncensored AI" loading="lazy">
+      <img src="original-media/uncensored/portrait-male.jpg" alt="Uncensored AI" loading="lazy">
       <div class="cov-img-overlay"></div>
       <div class="cov-num">04</div>
       <div class="cov-img-content">
@@ -17309,19 +17321,21 @@ var AIP_BG_GENERAL=[
   'brand/img-034.jpg'
 ];
 var AIP_BG_UNCENSORED=[
-  'brand/vid-23.mp4',
-  'brand/vid-24.mp4',
-  'brand/vid-25.mp4',
-  'brand/vid-26.mp4',
-  'brand/vid-27.mp4',
-  'brand/vid-28.mp4',
-  'brand/vid-29.mp4',
-  'brand/img-035.jpg',
-  'brand/img-036.jpg',
-  'brand/img-037.jpg',
-  'brand/img-038.jpg',
-  'brand/img-039.jpg',
-  'brand/img-040.jpg'
+  'original-media/uncensored/user-wings.jpg',
+  'original-media/uncensored/user-glass.jpg',
+  'original-media/uncensored/user-hud.jpg',
+  'original-media/uncensored/portrait-close.jpg',
+  'original-media/uncensored/portrait-glass.jpg',
+  'original-media/uncensored/portrait-male.jpg',
+  'original-media/uncensored/holding-logo.jpg',
+  'original-media/uncensored/armor-crop.jpg',
+  'original-media/uncensored/logo-mark.jpg',
+  'original-media/uncensored/wide-campaign.jpg',
+  'original-media/uncensored/hud-frame.jpg',
+  'original-media/uncensored/wide-model.jpg',
+  'original-media/uncensored/studio-dual.jpg',
+  'original-media/uncensored/logo-flare.jpg',
+  'original-media/uncensored/discs-macro.jpg'
 ];
 var AIP_UNCENSORED_IDS={
   getimg:1,venice:1,janitorai:1,candy:1,dreamgf:1,basedlabs:1,
@@ -17646,7 +17660,7 @@ function renderPage(d,id){
         /* Card 4 — Uncensored */
         '<div style="border-radius:14px;overflow:hidden;border:1px solid rgba(255,45,85,.18);background:rgba(255,45,85,.04);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);">'+
           '<div style="position:relative;height:118px;overflow:hidden;">'+
-            '<img src="brand/img-069.jpg" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(.5);" alt="Uncensored AI">'+
+            '<img src="original-media/uncensored/portrait-male.jpg" loading="lazy" style="width:100%;height:100%;object-fit:contain;object-position:center;filter:brightness(.5);background:#09090f;" alt="Uncensored AI">'+
             '<div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 28%,rgba(0,0,0,.92) 100%);"></div>'+
             '<div style="position:absolute;top:8px;left:8px;display:flex;align-items:center;gap:4px;padding:3px 8px;border-radius:20px;background:rgba(255,45,85,.15);border:1px solid rgba(255,45,85,.35);backdrop-filter:blur(12px);">'+
               '<svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="rgba(255,90,120,.95)" stroke-width="2.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>'+
