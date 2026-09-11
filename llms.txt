@@ -1,0 +1,17 @@
+# AILens
+
+> AILens is an independent AI intelligence directory covering models, companies, founders, tools, agents, image generation, video AI, voice AI, AI news, and practical learning guides.
+
+## Primary pages
+- [AI directory](https://ailens.online/ai.html)
+- [AI models](https://ailens.online/ai-models.html)
+- [AI companies](https://ailens.online/ai-companies.html)
+- [AI news](https://ailens.online/ai-news.html)
+- [AI video](https://ailens.online/ai-videos.html)
+- [Free AI tools](https://ailens.online/free-ai-tools.html)
+- [Learn AI](https://ailens.online/learn-ai.html)
+- [Claude guide](https://ailens.online/claude.html)
+- [Codex and AI coding](https://ailens.online/codex.html)
+
+## Notes
+Content is editorial and should be checked against the linked provider or primary source. Do not treat rankings, pricing, availability, or benchmark claims as permanent; AI products change frequently.

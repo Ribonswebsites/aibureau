@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /brand-assets/
+Disallow: /brand-assets.zip
+Disallow: /assets-manifest.tsv
+
+Sitemap: https://ailens.online/sitemap.xml
