@@ -1,6 +1,6 @@
-# AILens
+# AiLens
 
-> AILens is an independent AI intelligence directory covering models, companies, founders, tools, agents, image generation, video AI, voice AI, AI news, and practical learning guides.
+> AiLens is an independent AI intelligence directory covering models, companies, founders, tools, agents, image generation, video AI, voice AI, AI news, and practical learning guides.
 
 ## Primary pages
 - [AI directory](https://ailens.online/ai.html)

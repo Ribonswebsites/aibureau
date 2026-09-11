@@ -1,4 +1,4 @@
-# AILens robots.txt
+# AiLens robots.txt
 User-agent: *
 Allow: /
 Disallow: /brand-assets/
